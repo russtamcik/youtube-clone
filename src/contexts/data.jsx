@@ -31,7 +31,7 @@ export const DataProvider = ({ children }) => {
       .catch(function (error) {
         console.error(error);
       });
-  }, []);
+  });
 
   return (
     <FetchContext.Provider value={{ data }}>{children}</FetchContext.Provider>
