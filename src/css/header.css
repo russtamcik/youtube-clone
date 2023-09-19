@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.btn {
+  border: none !important;
+}
+
+.header-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-search {
+  max-width: 602px;
+}
+
+.more{
+  color: #000;
+}
+
+.audio img {
+  padding: 7px;
+  background-color: #f1f0f0;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.audio img:hover {
+  padding: 7px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #ccc;
+}
+
+.search-btn:hover {
+  background-color: #b5b5b5;
+}
+
+.header-media {
+  display: flex;
+  gap: 30px;
+}
+
+.header-media img {
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+aside {
+  position: fixed;
+  top: 80px;
+  height: calc(100vh - 80px);
+  width: 250px;
+  overflow: auto;
+  box-shadow: 10px 10px 20px 10px rgba(211, 211, 211, 0.25);
+}
+
+main {
+  position: fixed;
+  top: 80px;
+  left: 300px;
+  width: calc(100vw - 200px);
+  height: calc(100vh - 80px);
+  /* background-color: blue; */
+  overflow: auto;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+}
+
+.link p {
+  margin-top: 8px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link:hover {
+  background-color: #ccc;
+}
+
+.line {
+  width: 200px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.13);
+}
+
+.subs p{
+  margin-top: 18px;
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.commands{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #000;
+}
+
+.group:hover{
+  background-color: #ccc;
+}
+
+.group img{
+  border-radius: 50%;
+}

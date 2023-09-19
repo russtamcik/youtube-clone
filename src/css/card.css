@@ -1,0 +1,9 @@
+.cards{
+  padding-top: 100px;
+}
+
+.cards-item{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+}
